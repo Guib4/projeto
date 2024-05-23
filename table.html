@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <!-- exemplo de tabela -->
+    <!-- <div> -->
+        <!-- <table border> -->
+            <!-- tr = table row -->
+            <!-- th = table header -->
+            <!-- td = table date/dados -->
+            <!-- <tr>
+                <th>Frutas</th>
+                <th>Verduras</th>
+                <th>Legumes</th>
+            </tr>
+            <tr>
+                <td>Maçã</td>
+                <td>Alface</td>
+                <td>Amendoim</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>Couve</td>
+                <td>Trigo</td>
+            </tr>
+        </table> -->
+    <!-- </div> -->
+
+    <!-- <form action="https://instagram.com" method"get""post"></form> -->
+    <!-- Exemplo de formulário com cascata, seleção única e checkbos -->
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+
+            <label for="genero">Gênero</label>
+            <br>
+            <input type="radio" name="genero" value="Masculino"> <label>Masculino</label>
+            <br>
+            <input type="radio" name="genero" value="Feminino"> <label>Feminino</label>
+            <br>
+            <input type="radio" name="genero" value="Outro"> <label>Outro</label>
+            <br>
+            <br>
+            <label for="nome_usuario">Nome:</label>
+            <input type="text" placeholder="Digite aqui o seu nome" name="nome_usuario">
+            <br>
+            <label for="sobrenome_usuario">Sobrenome:</label>
+            <input type="text" placeholder="Digite aqui o seu nome" name="sobrenome_usuario">
+            <!-- <textarea></textarea> -->
+            <br>
+            <br>
+            <label for="Tamanhos">Tamanho:</label>
+            <select name="Tamanhos">
+                <option value="P">Pequeno</option>
+                <option value="M">Médio</option>
+                <option value="G">Grande</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Send</button>
+            <br>
+        </fieldset>
+    </form>
+</body>
+<!-- <input type="radio" name="Tamanho" value="Masculino"> <span>Pequeno</span>
+            <input type="radio" name="Tamanho" value="Feminino"> <span>Médio</span>
+            <input type="radio" name="Tamanho" value="Outro"> <span>Grande</span>
+            <br>
+            <div>Aceitar termos e condições</div>
+            <input type="checkbox"> <span>Você concorda com os termos e condições</span> -->
+            <!-- <button type="reset">Click me</button> -->
+</html>
