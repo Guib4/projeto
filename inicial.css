@@ -1,0 +1,69 @@
+.vermelho{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+
+.azul{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuProduto{
+    position: relative;
+}
+
+.menuProduto1{
+    position: absolute;
+}
+
+p {
+    border: solid red;
+    /* display: inline; */
+}
+
+span{
+    border: solid blue;
+    /* display: block; */
+}
+
+.chat{
+    position: relative;
+    left: 930px;
+}
+
+.carrinho{
+    position: relative;
+    left: 960px;
+}
+
+.perfil{
+    position: relative;
+    left: 990px;
+}
+
+.centralizar{
+    position: absolute;
+    left: 45%;
+}
