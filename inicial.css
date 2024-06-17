@@ -1,4 +1,4 @@
-.vermelho{
+.vermelho {
     background-color: red;
     width: 200px;
     height: 200px;
@@ -8,7 +8,7 @@
     z-index: 1;
 }
 
-.azul{
+.azul {
     background-color: blue;
     width: 200px;
     height: 200px;
@@ -18,23 +18,11 @@
     z-index: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.menuProduto{
+.menuProduto {
     position: relative;
 }
 
-.menuProduto1{
+.menuProduto1 {
     position: absolute;
 }
 
@@ -43,27 +31,27 @@ p {
     /* display: inline; */
 }
 
-span{
+span {
     border: solid blue;
     /* display: block; */
 }
 
-.chat{
+.chat {
     position: relative;
-    left: 930px;
+    left: 1200px;
 }
 
-.carrinho{
+.carrinho {
     position: relative;
-    left: 960px;
+    left: 1250px;
 }
 
-.perfil{
+.perfil {
     position: relative;
-    left: 990px;
+    left: 1300px;
 }
 
-.centralizar{
+.centralizar {
     position: absolute;
     left: 45%;
 }
