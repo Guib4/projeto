@@ -1,57 +1,89 @@
-.vermelho {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    position: absolute;
-    top: 10px;
-    z-index: 1;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.azul {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    position: relative;
-    top: 10px;
-    z-index: 0;
+a{
+    color: gold;
 }
 
-.menuProduto {
-    position: relative;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-.menuProduto1 {
-    position: absolute;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    align-items: center;
 }
 
-p {
-    border: solid red;
-    /* display: inline; */
+/* header a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
+} */
+
+.navBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px;
 }
 
-span {
-    border: solid blue;
-    /* display: block; */
+nav img {
+    height: 50px;
+    border-radius: 50%;
 }
 
-.chat {
-    position: relative;
-    left: 1200px;
+h1 {
+    color: gold;
 }
 
-.carrinho {
-    position: relative;
-    left: 1250px;
+ul {
+    list-style-type: none;
 }
 
-.perfil {
-    position: relative;
-    left: 1300px;
+li {
+    display: inline;
+    margin-left: 20px;
 }
 
-.centralizar {
-    position: absolute;
-    left: 45%;
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#loja {
+    background: url(img/wallpaper.png) no-repeat;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.lojaContent {
+    max-width: 700px;
+}
+
+.lojaContent h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: lightgray;
+    color: #fff;
+    text-shadow: 2px 2px black;
 }
