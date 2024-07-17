@@ -3,42 +3,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    grid-template-columns: repeat(3 auto);
-    grid-template-rows: auto;
-    grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    "registration-form registration-form registration-form";
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    grid-area: header;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #444;
-    padding: 0.5rem;
-    grid-area: nav;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
-nav a:hover {
-    background-color: #555;
 }
 
 .registration-form {
