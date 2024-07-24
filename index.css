@@ -4,15 +4,14 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(5, auto);
     grid-template-areas:
-        "header header header header header header"
-        "nav nav nav nav nav nav"
-        "product1 product1 product1 product2 product2 product2"
-        "product3 product3 product3 product4 product4 product4"
-        "product5 product5 product5 product5 product5 product5"
-        "footer footer footer footer footer footer";
+        "header header header"
+        "nav nav nav "
+        "product1 product2 product3"
+        "product4 product5 product5"
+        "footer footer footer";
 }
 
 header {
